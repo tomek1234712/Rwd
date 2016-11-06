@@ -1,0 +1,222 @@
+html {
+    font-size: 62,5%;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans";
+    color: #37474F;
+    font-size: .8rem;
+}
+.page-header {
+    position: absolute;
+        
+    width: 100%;
+    
+    padding: 20px;
+    padding-top: 20px;
+    box-sizing: border-box;
+}
+.page-nav .hamburger {
+    border: 0;
+    background: 0;
+    
+    width: 30px;
+    height: 30px;
+    
+    position: absolute;
+    right: 20px;
+    top: 5%;
+    color: #fff;
+}
+.page-nav .hamburger .close-icon {
+    display: none;
+}
+.page-nav .navigation-menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    
+    display: none;
+    
+    width: 100%;
+    text-align: center;
+}
+.page-nav .navigation-menu li {
+    border-bottom: 1px solid #f5f7f8;
+    
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.page-nav .navigation-menu li a {
+    color: #000;
+    text-decoration: none;
+    font-size: .7rem;
+}
+.page-nav .navigation-menu li.signup {
+    border: 0;
+    margin-top: 20px;
+}
+.page-nav .navigation-menu li.signup a {
+    border: 2px solid #00BAA5;
+    border-radius: 25px;
+    
+    padding: 7px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.page-header.nav-opened {
+    background: #ffffff;
+    box-shadow: -1px 9px 19px -8px rgba(0, 0, 0, 0.49);
+}
+.page-header.nav-opened .fa-gitlab.page-logo {
+    color: #000000;
+    font-size: 30px;
+}
+.page-header.nav-opened .page-nav .hamburger {
+    color: #000000;
+}
+.page-header.nav-opened .page-nav .hamburger .close-icon {
+    display: inline-block;
+}
+.page-header.nav-opened .page-nav .hamburger .hamburger-icon {
+    display: none;
+}
+.page-header.nav-opened .navigation-menu {
+    display: block;
+}
+.page-header .page-logo {
+    color: #fff;
+    font-size: 30px;
+}
+.hamburger {
+    height: 30px;
+    width: 60px;
+}
+.article .article-header {
+    box-sizing: border-box;
+    background: url(../img/background.png) no-repeat;
+    background-size: cover;
+    background-position: 50%;
+    
+    min-height: 60vh;
+    
+    padding-top: 100px;
+    padding-bottom: 15px;
+    
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 0;
+    
+    color: #FFFFFF;
+    text-align: center;
+}
+.article-title {
+    margin: 0;
+    font-weight: normal;
+    font-size: 2.05rem;
+    padding-bottom: 24px;
+    margin: 0;
+}
+.article-lead {
+    font-size: 1.05rem;
+    font-weight: 300;
+    padding-bottom: 44px;
+    margin: 0;
+}
+.article-container,
+.article-sidebar {
+    padding: 15px;  
+    box-sizing: border-box;
+}
+.article-sidebar {
+    border-top: 1px solid #ECEFF1;
+    border-bottom: 1px solid #ECEFF1;
+
+    padding-top: 82px;
+    padding-bottom: 82px;
+    padding-left: 0;
+    padding-right: 0;
+    margin-top: 104px;
+    margin-bottom: 104px;
+    
+    max-width: calc(100%-30px);
+    margin: auto;
+}
+.article-content p {
+    margin-bottom: 35px;
+}
+.article-sidebar .article-picture {
+    margin: 0;
+    margin-bottom: 70px;
+}
+.article-sidebar .article-picture img {
+    max-width: 100%;
+    display: block;
+    margin-bottom: 20px;
+}
+.article-author-photo {
+    max-width: 60px;
+    border-radius: 50%;
+    margin-bottom: 25px;
+}
+.article-sidebar .article-picture .caption {
+    color: #78909C;
+    font-style: italic;
+    text-align: center;
+}
+.article-author-name {
+    color: #17C4AD;
+    font-size: .7rem;
+    margin: 0;
+}
+.article-author-name::after {
+    content: "\00b7";
+    display: block;
+    color: #FFFFFF;
+    font-size: 1rem;    
+}
+.article-date {
+    font-size: .7rem;
+}
+.article-container {
+    padding-top: 82px;    
+    line-height: 26px;
+}
+.article-container p {
+    margin-top: 0;
+}
+.page-footer {
+    text-align: center;
+    background-color: #F5F7F8;
+    
+    padding-top: 74px;
+    padding-bottom: 48px;
+}
+.page-footer .navigation-menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 55px;
+}
+.page-footer .navigation-menu li {
+    margin-bottom: 35px;
+}
+.page-footer .navigation-menu li a {
+    color: #00BFA5;
+    text-decoration: none; 
+}
+.page-footer .navigation-menu li:last-child {
+ margin: 0;   
+}
+.page-footer .company-logo {
+    color: #78909C;
+    font-size: 50px;
+}
+.page-footer .copyright  {
+    margin: 0;
+    color: #78909C;
+}
+@media (min-width: 40em) {
+    
+}
